@@ -7,8 +7,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.lnstark.mall</groupId>
-	<artifactId>spring-cloud-eureka</artifactId>
+	<artifactId>malleureka</artifactId>
 	<packaging>jar</packaging>
 
 	<dependencies>
@@ -24,6 +23,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>eureka</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
